@@ -1,0 +1,105 @@
+body {
+    margin: 0%;
+    background-color: #eeeee2;
+    text-transform: uppercase;
+    font-family: fantasy;
+}
+
+.header {
+    font-size: 150px;
+    font-weight: unset;
+    color: rgba(0, 0, 0, 0.817);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+
+.content-box {
+    background-color: #f9f9f1;
+    height: 60vh;
+    width: 47%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    font-size: 60px;
+    padding-left: 30px;
+    justify-content: center;
+    gap: 30px;
+}
+
+.last {
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+p {
+    margin: 0px;
+}
+
+.red {
+    color: #fe5510;
+}
+
+.sky {
+    color: #01b4fd;
+}
+.emoji-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+}
+
+.emoji-box {
+    display: flex;
+    flex-direction: row;
+    background-color: #f9f9f1;
+    /* justify-content: center; */
+    height: 39vh;
+    width: 101%;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+@keyframes example {
+    from {
+        left: -545%;
+        right: 100%;
+    }
+
+    to {
+        right: 100%;
+        left: 0%;
+    }
+
+}
+
+.emoji {
+    font-size: 200px;
+    animation-name: example;
+    animation-duration:13s;
+    animation-iteration-count: infinite;
+    animation-direction:reverse;
+    animation-fill-mode:both;
+    animation-timing-function: linear;
+    position: relative;
+
+}
+.follow-container{
+    color: white;
+    background-color:#fe5510;
+    height: 20vh;
+    width: 101%;
+    border-radius:20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+}
